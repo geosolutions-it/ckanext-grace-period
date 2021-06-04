@@ -28,7 +28,7 @@
 {% block resource_item_explore %}
   {% if not resource_available %}
     <div class=" btn-group">
-      {{ _('Available since') }} {{ res['available_since'] }}
+      {{ _('Available from') }} {{ res['available_since'] }}
     </div>
   {% else %}
     {{ super() }}
